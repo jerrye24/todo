@@ -3,11 +3,11 @@ import React from 'react';
 import TodoListItem from './todo-list-item';
 
 const TodoList = () => {
-    const items = ['Drink coffee', 'Build Awesome App']
+
     return (
         <ul>
-            <li>< TodoListItem /></li>
-            <li>< TodoListItem /></li>
+            <li>< TodoListItem label="Drink coffee" /></li>
+            <li>< TodoListItem label="Build React App" important /></li>
         </ul>
     );
 };
